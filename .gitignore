@@ -1,0 +1,26 @@
+# Compiled object files
+*.o
+*.obj
+
+# Compiled executable files
+*.exe
+*.out
+*.app
+
+# Backup files
+*~
+*.bak
+*.tmp
+
+# IDE / Editor specific
+.vscode/
+*.code-workspace
+*.idea/
+*.sublime-project
+*.sublime-workspace
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
