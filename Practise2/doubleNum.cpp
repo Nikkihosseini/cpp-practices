@@ -6,4 +6,5 @@ int main(){
     int num{};
     std::cin >> num;
     std::cout << "double: " << num * 2;
+    return 0;
 }
