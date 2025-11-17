@@ -2,10 +2,20 @@
 
 
 int main(){
-    constexpr bool isCold{true};
-    int heaterStatus{isCold ? 1 : 0};
+    
+    double b1{100.0 - 99.99};
+    double b2{10.0 - 9.99};
 
-    std::cout << "Heater Status: " << heaterStatus << '\n';
+    if(b1 == b2){
+        std::cout << "b1 == b2"<< '\n';
+    } else if(b1 > b2) {
+        std::cout << "b1 > b2"<< '\n';
+    } else{
+        std::cout << "b1 < b2"<< '\n';
+    }
+
+    std::cout << b1 << '\n' << b2;
+        
 
     return 0;
 }
