@@ -20,7 +20,7 @@ int userAge(){
         std::cin >> age;
 
         if(age < 0 || age > 120){
-            std::cout << "Invalid age, try again" << '\n';
+            std::cout << "\a\tInvalid age, try again" << '\n';
         } else{
             return age;
         };
